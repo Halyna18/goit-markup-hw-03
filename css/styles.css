@@ -1,0 +1,226 @@
+:root {
+	--hero-color: #ffffff;
+	--main-title-color: #2e2f42;
+	--main-description-color: #434455;
+	--accent-color: #4d5ae5;
+	--hover-focus-color: #404bbf;
+	--background-color-1: #2e2f42;
+	--background-color-2: #f4f4fd;
+	--footer-text: #e7e9fc;
+	--secondary-font: "Raleway", sans-serif;
+}
+body {
+	font-family: "Roboto", sans-serif;
+	color: var(--main-description-color);
+}
+.list {
+	list-style: none;
+}
+.link {
+	text-decoration: none;
+}
+.btn {
+	font-family: inherit;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.04em;
+	cursor: pointer;
+}
+.control-item-btn:hover,
+.control-item-btn:focus {
+	color: var(--hero-color);
+	background-color: var(--hover-focus-color);
+}
+.heading:hover,
+.heading:focus {
+	color: var(--hover-focus-color);
+}
+.header {
+}
+.header-navigation {
+}
+.header-logo {
+	font-family: "Raleway", sans-serif;
+	font-weight: 800;
+	font-size: 18px;
+	line-height: 1.33;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: var(--main-title-color);
+}
+.header-logo span {
+	color: var(--accent-color);
+}
+.header-list {
+}
+.header-item {
+}
+.header-item-link {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: var(--main-title-color);
+}
+.header-address {
+}
+.header-link {
+	font-style: normal;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: var(--main-description-color);
+}
+.title {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.11;
+	letter-spacing: 0.02em;
+	text-transform: capitalize;
+}
+.subtitle {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
+}
+
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+	white-space: nowrap;
+	clip-path: inset(100%);
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+}
+
+/* <!--Hero section--> */
+.hero {
+	background: var(--background-color-1);
+}
+.hero-subject {
+	font-weight: 700;
+	font-size: 56px;
+	line-height: 1.07;
+	letter-spacing: 0.02em;
+	color: var(--hero-color);
+}
+.hero-btn {
+	color: var(--hero-color);
+	background: var(--accent-color);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+	border-radius: 4px;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+	background: var(--hover-focus-color);
+}
+
+/* <!--/Hero section--> */
+
+/* <!--Section Advantages--> */
+.advantages {
+}
+.advantages-list {
+}
+
+.advantages-item {
+}
+.advantages-item-subtitle {
+	color: var(--main-title-color);
+}
+.advantages-item-description {
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+}
+/* <!--/Section Advantages--> */
+
+/* <!--We doing section--> */
+.doing {
+}
+.doing-title {
+	color: var(--main-title-color);
+}
+.doing-list {
+}
+.doing-item {
+}
+/* <!--/We doing section--> */
+
+/* <!--Team section--> */
+.team {
+	background: var(--background-color-2);
+}
+.team-title {
+	color: var(--main-title-color);
+}
+.team-list {
+}
+.team-item {
+}
+.team-item-subtitle {
+	color: var(--main-title-color);
+}
+.team-item-description {
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+}
+/* <!--/Team section--> */
+.footer {
+	background: var(--background-color-1);
+}
+.footer-logo {
+	font-family: "Raleway", sans-serif;
+	font-weight: 800;
+	font-size: 18px;
+	line-height: 1.17;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: var(--background-color-2);
+}
+
+.footer-logo span {
+	color: var(--accent-color);
+}
+.footer-text {
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: var(--footer-text);
+}
+
+/* <!--Hero and portfolio section-->*/
+.control {
+}
+.control-list {
+}
+.control-item {
+}
+.control-item-btn {
+	color: var(--accent-color);
+	background: var(--background-color-2);
+	border-radius: 4px;
+}
+
+.portfolio-list {
+}
+.portfolio-item {
+}
+
+.portfolio-item-subtitle {
+	color: var(--main-title-color);
+}
+.portfolio-item-description {
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: var(--main-description-color);
+}
+/* <!--/Hero and portfolio section--> */
