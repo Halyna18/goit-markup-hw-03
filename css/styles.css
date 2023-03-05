@@ -66,7 +66,7 @@ body {
 }
 .header {
 	padding: 24px 0;
-	border: #e7e9fc;
+	border-bottom: 1px solid var(--footer-text);
 }
 .header-container {
 	display: flex;
