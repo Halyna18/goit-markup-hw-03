@@ -58,6 +58,7 @@ body {
 .control-item-btn:focus {
 	color: var(--hero-color);
 	background-color: var(--hover-focus-color);
+	border: 1px solid var(--hover-focus-color);
 }
 .heading:hover,
 .heading:focus {
@@ -65,6 +66,7 @@ body {
 }
 .header {
 	padding: 24px 0;
+	border: #e7e9fc;
 }
 .header-container {
 	display: flex;
@@ -140,7 +142,8 @@ body {
 /* <!--Hero section--> */
 .hero {
 	background: var(--background-color-1);
-	padding: 188px 472px 292px;
+	padding-top: 188px;
+	padding-bottom: 292px;
 	text-align: center;
 }
 
@@ -203,15 +206,11 @@ body {
 .doing {
 	padding-bottom: 120px;
 }
-.doing-container {
-	display: flex;
-	align-items: center;
-}
+
 .doing-title {
 	color: var(--main-title-color);
 	margin-bottom: var(--margin-title);
-	margin-right: auto;
-	margin-left: auto;
+	text-align: center;
 }
 .doing-list {
 	display: flex;
@@ -227,15 +226,11 @@ body {
 	background: var(--background-color-2);
 	padding: 120px 0;
 }
-.team-container {
-	display: flex;
-	align-items: center;
-}
+
 .team-title {
 	color: var(--main-title-color);
 	margin-bottom: var(--margin-title);
-	margin-left: auto;
-	margin-right: auto;
+	text-align: center;
 }
 .team-list {
 	display: flex;
@@ -246,8 +241,10 @@ body {
 	background: #ffffff;
 	box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 	border-radius: 0px 0px 4px 4px;
-	padding-bottom: 32px;
 	text-align: center;
+}
+.team-item-container {
+	margin: 32px 0;
 }
 .team-item-subtitle {
 	color: var(--main-title-color);
@@ -290,16 +287,13 @@ body {
 .control {
 	padding: 96px 0;
 }
-.container-control {
+
+.control-list {
 	display: flex;
 	justify-content: center;
-}
-.control-list {
 	flex-wrap: wrap;
-	display: flex;
 	align-items: center;
-	gap: 48px 24px;
-	min-width: 360px;
+	gap: 24px;
 	margin-bottom: var(--margin-title);
 }
 .control-item {
@@ -307,7 +301,9 @@ body {
 .control-item-btn {
 	color: var(--accent-color);
 	background: var(--background-color-2);
+	border: 1px solid var(--footer-text);
 	border-radius: 4px;
+	box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .portfolio-list {
@@ -316,7 +312,6 @@ body {
 }
 
 .portfolio-item {
-	border: 1px solid #e7e9fc;
 	margin-right: 24px;
 	margin-bottom: 48px;
 	width: 360px;
@@ -329,10 +324,13 @@ body {
 }
 .portfolio-item-link {
 }
+.portfolio-item-container {
+	border: 1px solid var(--footer-text);
+	padding: 32px 0;
+}
 .portfolio-item-subtitle {
 	color: var(--main-title-color);
 	margin-bottom: var(--margin-subtitle);
-	margin-top: 32px;
 	margin-left: 16px;
 }
 .portfolio-item-description {
@@ -340,7 +338,6 @@ body {
 	line-height: 1.5;
 	letter-spacing: 0.02em;
 	color: var(--main-description-color);
-	margin-bottom: 32px;
 	margin-left: 16px;
 }
 /* <!--/Hero and portfolio section--> */
